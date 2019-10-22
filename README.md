@@ -1,5 +1,14 @@
 # Desafio-1-2-005
 
+## Equipe:
+
+* Alessandra Buso
+* Gabriela Kimura
+* Lazaro Domiciano
+* Wana Batista
+
+## Descrição do Projeto
+
 * Estudos na área de ecologia e conservação da biodiversidade são baseados em observações da natureza. Para que tais estudos normalmente é necessário utilizar uma grande quantidade de dados em grandes escala geografica e temporal.
 
 O que é Informática para Biodiversidade: https://figshare.com/articles/Introduction_to_Biodiversity_Informatics/1295382
