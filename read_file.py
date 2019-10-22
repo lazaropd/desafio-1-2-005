@@ -1,6 +1,6 @@
 
 
-
+			
 class CSVFile():
 
 	def __init__(self):
@@ -11,14 +11,15 @@ class CSVFile():
 	def read_file(self, filePath):
 
 		try: 
-			f = open(filePath,"r")
+			f = open(filePath,"r", encoding='utf-8')
 			data = f.readlines()
-			self.data = list(  map(lambda line: line.split(";"), data) )
+			self.data = list(  map(lambda line: line.strip("\n").split(";"), data) )
 			f.close()
 
 		except IOError as e:
 			print (e.args)			
 			return None
+
 
 
 """
